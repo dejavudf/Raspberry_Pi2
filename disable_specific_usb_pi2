@@ -1,0 +1,5 @@
+on shell:
+echo "0" | sudo tee /sys/devices/platform/soc/3f980000.usb/usb1/1-1/1-1:1.0/1-1-port2/power/pm_qos_no_power_off
+
+on init (create a script file on /etc/init.d/rc2.d and symlink on /etc/init.d):
+echo "0" > /sys/devices/platform/soc/3f980000.usb/usb1/1-1/1-1:1.0/1-1-port2/power/pm_qos_no_power_off
