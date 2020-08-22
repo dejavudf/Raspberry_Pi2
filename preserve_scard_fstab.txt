@@ -1,0 +1,5 @@
+LABEL=writable	/	 ext4	noatime,nodiratime,defaults	0 0
+LABEL=system-boot       /boot/firmware  vfat    noatime,nodiratime,defaults        0       1
+none	/var/log	tmpfs	defaults,size=8M	0	0
+none    /var/tmp        tmpfs   defaults,size=128M        0       0
+none    /tmp        tmpfs   defaults,noatime,size=256M        0       0
