@@ -1,0 +1,5 @@
+/etc/boot/firmware/config.txt
+
+add:
+gpu_mem=16
+disable_audio_dither=1
