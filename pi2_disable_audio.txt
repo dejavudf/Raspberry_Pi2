@@ -1,0 +1,4 @@
+File: /etc/boot/firmware/config.txt
+
+add line:
+disable_audio_dither=1
