@@ -1,0 +1,3 @@
+if you do not have a wifi adapter then:
+
+sudo systemctl disable wpa_supplicant.service
