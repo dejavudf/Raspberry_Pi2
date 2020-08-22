@@ -6,3 +6,13 @@ echo "0" | sudo tee /sys/devices/platform/soc/3f980000.usb/usb1/1-1/1-1:1.0/1-1-
 
 on init (create a script file on /etc/init.d/rc2.d and symlink on /etc/init.d):
 echo "0" > /sys/devices/platform/soc/3f980000.usb/usb1/1-1/1-1:1.0/1-1-port2/power/pm_qos_no_power_off
+
+INFO (raspberry pi2):
+
+USB port 1: Ethernet
+USB port 2: usb port 1
+USB port 3: usb port 2
+USB port 4: usb port 3
+USB port 5: usb port 4
+
+
